@@ -13,21 +13,21 @@
         <nav class="navbar">
             <a href="#home" class="active">HOME</a>
             <a href="#about">ABOUT</a>
-            <a href="#project">PROJECTS</a>
-            <a href="#experience">EXPERIENCE</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#experiences">EXPERIENCE</a>
             <a href="#contact">CONTACT</a>
         </nav>
     </header>
     
     <section class="home" id="home">
         <div class="home-img">
-            <img src="./_.jpeg" alt="">
+            <img src="./webpic.jpeg" alt="">
         </div>
         <div class="home-content">
             <h1>Hello, My name is <span>Lianna</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://instagram.com/lianna_liii1/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="http://linkedin.com/in/lianna-li-70204334b"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/lrb2006"><i class="fa-brands fa-github"></i>
                     </a>
@@ -57,7 +57,7 @@ excites me. I also enjoy working with financial tools like Power BI and staying 
         <div class="projects" id="projects">
             <div class="container">
                 <h1 class="sub-title">MY <span>PROJECTS</span></h1>
-                <div class="project-list">
+                <div class="projects-list">
                     <div>
                         <i class="fa-solid fa-house" style="color: #bad8ff;"></i>
                         <h2>Portfolio Website</h2>
@@ -85,7 +85,7 @@ excites me. I also enjoy working with financial tools like Power BI and staying 
         </div>
     </section>
 
-    <section class="volunteer" id="volunteer">
+    <section class="experiences" id="experiences">
         <h2 class="heading">EXPERIENCE</h2>
 
         <div class="timeline-items">
@@ -129,20 +129,20 @@ excites me. I also enjoy working with financial tools like Power BI and staying 
     <section class="contact" id="contact">
         <h2 class="heading">CONTACT <span>ME</span></h2>
 
-        <form action="">
+        <form action="https://formspree.io/f/xkgjndgl" method="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <input type="text" name="subject" placeholder="Subject">
                 </div>
             </div>
 
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>

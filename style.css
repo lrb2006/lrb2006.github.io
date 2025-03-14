@@ -308,13 +308,13 @@ span{
 .container {
     padding: 30px;
 }
-.project-list{
+.projects-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.project-list div{
+.projects-list div{
     background-color: transparent;
     padding: 40px;
     font-size: 12px;
@@ -325,16 +325,16 @@ span{
     box-shadow: 1px 1px 20px #fff,
         1px 1px 40px #bad8ff;
 }
-.project-list div i {
+.projects-list div i {
     font-size: 50px;
     margin-bottom: 30px;
 }
-.project-list div h2 {
+.projects-list div h2 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.project-list div a{
+.projects-list div a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
@@ -361,7 +361,7 @@ span{
     color: black;
     box-shadow: 0 0 25px #bad8ff;;
 }
-.project-list div:hover{
+.projects-list div:hover{
     transform: translate(-10px);
 }
 
@@ -371,11 +371,11 @@ span{
     text-align: center;
     padding-bottom: 5px;
 }
-.volunteer{
+.experiences{
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
-.volunteer h2{
+.experiences h2{
     margin-bottom: 5rem;
 }
 .timeline-items{

@@ -1,179 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>Lianna - Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6a5b84c1c3.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="favicon-32x32.png">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#091716"><meta name="description" content="Lianna Li — Waterloo Mathematical Finance student. A little space for code, curiosity, markets, and music.">
+<title>Lianna Li · Compounding curiosity</title>
+<script>document.documentElement.classList.add('js-pending');setTimeout(function(){document.documentElement.classList.remove('js-pending');},2500);</script>
+<link rel="icon" href="assets/favicon.png"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="finance.css">
 </head>
 <body>
-    <header>
-        <a href="#home" class="logo">Lianna</a>
-        <audio src="./1st.mp3" class="music" controls></audio>
-
-        <nav class="navbar">
-            <a href="#home" class="active">HOME</a>
-            <a href="#about">ABOUT</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#experiences">EXPERIENCE</a>
-            <a href="#contact">CONTACT</a>
-        </nav>
-    </header>
-    
-    <section class="home" id="home">
-        <div class="home-img">
-            <img src="./webpic.jpeg" alt="">
-        </div>
-        <div class="home-content">
-            <h1>Hello, My name is <span>Lianna</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <div class="social-icons">
-                <a href="http://instagram.com/lianna_liii1/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="http://linkedin.com/in/lianna-li-70204334b"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/lrb2006"><i class="fa-brands fa-github"></i></a>
-                <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
-            </div>
-            <a href="#" class="btn">Hire me</a>
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="logo.png">
-        </div>
-        <div class="about-text">
-            <h2>ABOUT <span>ME</span></h2>
-            <p></p>
-            <p>Hey there! I’m Lianna, a first-year student in Honours Mathematics at the University of Waterloo. 
-            <p>I have a strong interest in financial analysis and actuarial science, but I also love coding and problem-solving. Ideally, I’d love to find a career that combines both.</p>
-            <p>I’ve been self-studying front-end development for two years, and he process of building and refining websites
-excites me. I also enjoy working with financial tools like Power BI and staying up to date with industry trends, constantly looking for ways to connect data with real-world insights.</p>
-            <p>Beyond academics, I have a passion for badminton, piano, music production, photography and listening to K-pop music. One of my favourite sentences is that <span>"You either take control of life, or life takes control of you"</span>.</p>
-            <p>To me, learning is more than just acquiring knowledge—it’s about building the skills and mindset to shape my own path. Whether in finance, technology, or the arts, I want to create, explore, and leave an impact.</p>
-        </div>
-    </section>
-
-    <section class="projects" id="projects">
-        <div class="projects" id="projects">
-            <div class="container">
-                <h1 class="sub-title">MY <span>PROJECTS</span></h1>
-                <div class="projects-list">
-                    <div>
-                        <i class="fa-solid fa-house" style="color: #bad8ff;"></i>
-                        <h2>Portfolio Website</h2>
-                        <h3 style="color: #bad8ff;">HTML, CSS, JavaScript</h3>
-                            <br>
-                            <li>Developed a fully reponsive, mobile-first portfolio website with adaptive <b>UI/UX</b> for optimal cross-device performance</li>
-                            <li>Engineered dynamic role-switching animations using <b>CSS</b> transitions</li>
-                            <li>Implemented a <b>JavaScript</b>-based interactive navigation system with smooth scrolling and active section highlighting</li>
-                            <li>Integrated <b>Formspree</b> for a serverless contact form solution, enabling direct email communication</li>
-                            <li>Embedded an <b>original music</b> music track using an interactive audio player for a personalized multimedia experience</li>
-                            <a href="#" class="read">Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-certificate" style="color: #bad8ff;"></i>
-                        <h2>Forage Goldman Sachs Project</h2>
-                        <h3 style="color: #bad8ff;">Financial Transaction Management, Client Service</h3>
-                            <br>
-                            <li>Completed a hands-on simulation exploring the foundational concepts of operations at Goldman Sachs, focusing on wealth management, transaction facilitation, and client service in a global financial institution.</li>
-                            <li>Gained practical insights into operational efficiency, including managing personal transactions, understanding banking processes, and implementing process improvements using key technologies such as BI tools.</li>
-                            <a href="Forage Certification.pdf" class="read">Download Certification</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-chart-column" style="color: #bad8ff;"></i>
-                        <h2>Real-Time Stock Tracker</h2>
-                        <h3 style="color: #bad8ff;">Python, JavaScript, HTML, CSS, Flask, Yahoo Finance API</h3>
-                            <br>
-                            <li>Deployed the application locally using Flask, demonstrating proficiency in full-stack development and API integration</li>
-                            <li>Integrated the Yahoo Finance API to fetch and display real-time stock data, including current price and percentage
-                                change over a specified time period</li>
-                            <li>Built a responsive and interactive frontend using jQuery for DOM manipulation and AJAX for seamless data updates
-                                without page reloads</li>
-                            <li>Implemented a dynamic user interface that allows users to add and remove stock tickers, with automatic updates every
-                                15 seconds to reflect the latest market data</li>
-                            <a href="https://github.com/lrb2006/stock-tracker" class="read">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="experiences" id="experiences">
-        <h2 class="heading">EXPERIENCE</h2>
-
-        <div class="timeline-items">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                    <div class="timeline-dates">2022</div>
-                    <div class="timeline-content">
-                        <h3>Tutor, Education Aid</h3>
-                        <li>Provided 100+ hours of one-on-one personalized online tutoring in Math and HTML programming to students in rural
-                            communities, contributing to an average 5 percent improvement in end-of-course math scores.</li>
-                        <li>Collaborated with the organization to design tailored lesson plans and curricula, ensuring alignment with students’
-                            learning needs and academic goals.</li>
-                    </div>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                    <div class="timeline-dates">2023</div>
-                    <div class="timeline-content">
-                        <h3>Founder & President, K-pop Dance Club</h3>
-                        <li>Spearheaded the creation of the school’s first K-pop Dance Club, building the organization from the ground up by
-                            recruiting and managing a team of 5+ executives to oversee operations, marketing, and event planning.</li>
-                        <li>Organized and led weekly dance workshops for 30+ members, and promoting cross-cultural appreciation through K-pop
-                            music and dance.</li>
-                    </div>          
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                    <div class="timeline-dates">2024</div>
-                    <div class="timeline-content">
-                        <h3>HRYA Advocacy Department Member</h3>
-                        <li>Advance youth and women’s rights through data-driven research, advocacy articles, and fundraising initiatives.</li>
-                        <li>Successfully raised 5,000+ to provide menstrual products and first-aid kits to underserved communities, improving access
-                            to essential resources.</li>
-                    </div>             
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2 class="heading">CONTACT <span>ME</span></h2>
-
-        <form action="https://formspree.io/f/xkgjndgl" method="POST">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" name="name" placeholder="Full Name" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-                <div class="input-box">
-                    <input type="tel" name="phone" placeholder="Phone Number">
-                    <input type="text" name="subject" placeholder="Subject">
-                </div>
-            </div>
-
-            <div class="input-group-2">
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </div>
-        </form>
-    </section>
-
-    <footer class="footer">
-        <div class="social">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="http://linkedin.com/in/lianna-li-70204334b"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/lrb2006"><i class="fa-brands fa-github"></i></a>
-        </div>
-
-        <p class="copyright">
-            @Lianna Li | All Rights Reserved
-        </p>
-        
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+<a class="skip-link" href="#main">Skip to content</a>
+<noscript><p class="noscript-note">You're seeing the reading version. Enable JavaScript in your browser for the interactive introduction, project experiments, and record player.</p></noscript>
+<div class="intro" id="intro" role="dialog" aria-modal="true" aria-label="Lianna's interactive financial introduction" hidden>
+  <div class="intro-top mono"><span>LIANNA LI <i> / </i> COMPOUNDING CURIOSITY</span><button id="skip-intro">Skip intro</button></div>
+  <canvas id="code-canvas" aria-hidden="true"></canvas>
+  <div class="intro-center"><span class="mono intro-kicker" id="intro-phase">small signals. infinite possibilities.</span><h1 aria-label="Lianna">LIANNA</h1><p>math × code × a little human instinct</p><div class="intro-actions"><button class="pill light" id="enter-quiet">Make a ripple <span>⊙</span></button><button class="text-button" id="enter-sound">Enter with sound</button></div><p class="intro-instruction">Move to stir the numbers. Click anywhere to step inside.</p><button class="gesture-toggle" id="enable-gesture" aria-pressed="false">✧ Try hand control</button><p id="gesture-help" class="gesture-help">Optional camera · pinch your thumb and index finger to enter.</p></div>
+  <div class="camera-panel" id="camera-panel" hidden><div class="camera-preview"><video id="hand-video" autoplay playsinline muted aria-label="Your live camera preview"></video><canvas id="hand-overlay" aria-hidden="true"></canvas></div><p id="gesture-status" role="status">Getting ready…</p><button id="stop-gesture">Turn camera off</button><small>Processed on your device. No recording.</small></div>
+  <div class="intro-bottom mono"><span>ILLUSTRATIVE MARKET MOTION · NO LIVE PRICES</span><span id="intro-mode">MOVE / EXPLORE / MAKE WAVES</span></div>
+</div>
+<div id="ripple-transition" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div id="gesture-cursor" aria-hidden="true"><span></span></div>
+<div id="site">
+<header class="site-header"><a class="wordmark" href="#home" aria-label="Lianna home">lianna<span>✳</span></a><nav aria-label="Main"><a href="#drawers">The drawers</a><a href="#about">The human</a><a href="#contact">Say hello</a></nav><button id="sound-toggle" class="sound-toggle" aria-pressed="false" aria-label="Turn interface sounds on"><span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i></span><span id="sound-label">Sound off</span></button></header>
+<main id="main">
+<section class="hero" id="home" aria-labelledby="hero-title">
+<div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> WATERLOO, ON · OPEN TO WHAT'S NEXT</div><h1 id="hero-title">Curiosity,<br><em>compounding.</em><span class="hand-star" aria-hidden="true">✳</span></h1><p class="hero-description">Hi, I'm Lianna. I study mathematical finance and make things with code, data, and whatever catches my curiosity.</p><a class="pill dark" href="#drawers">Take a look around <span>+</span></a><div class="hero-note"><span class="scribble" aria-hidden="true">↳</span> The interesting stuff is in the drawers.</div></div>
+<div class="desk" aria-label="An interactive collection of things I make">
+  <div class="desk-grid" aria-hidden="true"></div><span class="desk-caption mono">MY PERSONAL EXCHANGE</span>
+  <svg class="growth-chart" viewBox="0 0 440 280" aria-hidden="true"><path d="M5 265H435M5 200H435M5 135H435M5 70H435" class="chart-grid"/><g class="candles"><path d="M35 214V259M76 193V239M117 202V245M158 151V219M199 127V189M240 139V196M281 89V162M322 58V127M363 70V133M404 16V98"/><rect x="26" y="228" width="18" height="19"/><rect x="67" y="205" width="18" height="23"/><rect class="down" x="108" y="214" width="18" height="18"/><rect x="149" y="168" width="18" height="33"/><rect x="190" y="144" width="18" height="29"/><rect class="down" x="231" y="155" width="18" height="24"/><rect x="272" y="107" width="18" height="34"/><rect x="313" y="78" width="18" height="33"/><rect class="down" x="354" y="87" width="18" height="27"/><rect x="395" y="38" width="18" height="43"/></g></svg>
+  <span class="chart-note">growth is never a straight line.</span>
+  <a href="#drawers" class="desk-folder" aria-label="Open my project drawers"><span class="folder-tab">research & experiments</span><span class="folder-body"><span class="folder-symbol">{&nbsp;}</span><span>THINGS<br>I'VE BUILT</span><small class="mono">CODE · DATA · MARKETS</small></span></a>
+  <button class="desk-photo" id="photo-button" aria-label="Meet Lianna"><img src="assets/portrait.jpeg" alt="Illustrated avatar from Lianna's original website"><span>the human behind the tabs ♡</span></button>
+  <button class="cd-object" id="open-player" aria-label="Open record player for my original music demo"><span class="cd-disc"><span class="cd-label">LIANNA<br><b>DEMO 01</b><small>original music</small></span><span class="cd-hole"></span></span><span class="cd-caption">press play on a different side of me</span></button>
+  <span class="desk-sticker" aria-hidden="true">made with<br><b>curiosity</b></span>
+</div>
+<div class="hero-bottom mono"><span>EXPLORE THE COLLECTION</span><span>CODE + DATA + MUSIC + ME</span><span>↓</span></div>
+</section>
+<div class="ticker" aria-hidden="true"><div>BUILD. TEST. QUESTION. REPEAT. <span>✳</span> SMALL EXPERIMENTS. COMPOUNDING CURIOSITY. <span>✳</span> BUILD. TEST. QUESTION. REPEAT. <span>✳</span> SMALL EXPERIMENTS. COMPOUNDING CURIOSITY. <span>✳</span></div></div>
+<section class="drawers-section" id="drawers" aria-labelledby="drawers-heading"><div class="section-heading"><div><span class="eyebrow">THE RESEARCH DRAWERS</span><h2 id="drawers-heading">Follow your <em>curiosity.</em></h2></div><p>Open a drawer. Run a small experiment.<br>Look under the assumptions.</p></div>
+<div class="cabinet">
+<details class="drawer" open><summary><span class="drawer-number mono">01</span><span class="drawer-title">Code & commerce <small>Building things that do things.</small></span><span class="drawer-handle" aria-hidden="true"></span><span class="drawer-count mono">1 THING <b>+</b></span></summary><div class="drawer-content"><button class="project-card commerce-card" data-project="commerce"><span class="project-top mono">PYTHON / SQL / FASTAPI <span>01</span></span><div class="commerce-art" aria-hidden="true"><span class="mini-order"><i></i>Order #8421 <b>Check passed</b></span><span class="mini-order"><i></i>Order #8422 <b>Review needed</b></span><span class="mini-order"><i></i>Order #8423 <b>Check passed</b></span><span class="review-stamp">LOOK<br>CLOSER</span></div><span class="project-bottom"><strong>Commerce Ops</strong><span>From messy order data to a traceable investigation.</span><span class="card-link">Open project <b>+</b></span></span></button><div class="drawer-note"><span class="note-pin" aria-hidden="true"></span><span class="eyebrow">THE QUESTION</span><p>“Something looks off in these orders. Where do we even start?”</p><span class="mono">A tool for following the evidence.</span></div></div></details>
+<details class="drawer"><summary><span class="drawer-number mono">02</span><span class="drawer-title">Markets & models <small>Testing assumptions, one experiment at a time.</small></span><span class="drawer-handle" aria-hidden="true"></span><span class="drawer-count mono">3 THINGS <b>+</b></span></summary><div class="drawer-content research-grid"><button class="project-card research-card" data-project="quant"><span class="project-top mono">PYTHON / PANDAS / RESEARCH <span>02</span></span><div class="research-art"><img src="assets/qre-equity.png" alt="Equity curves from my backtesting research" loading="lazy"></div><span class="project-bottom"><strong>Quant Research Engine</strong><span>What survives after costs and careful accounting?</span><span class="card-link">Open notebook <b>+</b></span></span></button><button class="project-card research-card" data-project="market"><span class="project-top mono">NUMPY / MONTE CARLO <span>03</span></span><div class="research-art"><img src="assets/market-making.png" alt="Simulated market-making profit and loss distributions" loading="lazy"></div><span class="project-bottom"><strong>Market-Making Simulator</strong><span>A small simulated market. A lot of what-ifs.</span><span class="card-link">Open experiment <b>+</b></span></span></button><button class="project-card research-card" data-project="valuation"><span class="project-top mono">PYTHON / EXCEL / MODELING <span>04</span></span><div class="valuation-art" aria-hidden="true"><span>price ≠ value</span><div><i></i><i></i><i></i><i></i><i></i></div><small>ASSUMPTIONS MATTER.</small></div><span class="project-bottom"><strong>ISRG Valuation</strong><span>Turning a price into a question about growth.</span><span class="card-link">Open model <b>+</b></span></span></button></div></details>
+<details class="drawer personal-drawer"><summary><span class="drawer-number mono">03</span><span class="drawer-title">Off the clock <small>Because a person is more than a stack.</small></span><span class="drawer-handle" aria-hidden="true"></span><span class="drawer-count mono">THE B-SIDE <b>+</b></span></summary><div class="drawer-content personal-content"><button class="music-note" id="drawer-player"><span class="mini-disc" aria-hidden="true">♫</span><span class="eyebrow">THE SOUND DRAWER</span><strong>My first demo.</strong><p>A different kind of experiment.<br>Made by me. Best with headphones.</p><span class="card-link">Put the record on <b>+</b></span></button><div class="personal-list"><span class="eyebrow">ALSO IN THE MIX</span><p>Music production.<br>Piano. Photography.<br>Badminton. K-pop.</p><span class="handwriting">many tabs open, always.</span></div></div></details>
+</div><p class="project-footnote mono">Personal learning projects, developed with AI assistance. Research results are historical or simulated, not live trading performance.</p></section>
+<section class="about-section" id="about" aria-labelledby="about-heading"><div class="about-label"><span class="eyebrow">THE HUMAN</span><span class="big-asterisk" aria-hidden="true">✳</span></div><div class="about-copy"><h2 id="about-heading">Math brain.<br><em>Maker energy.</em></h2><p>I'm Lianna Li, a Mathematical Finance co-op student at the University of Waterloo, graduating in 2028. I like the space where analytical thinking meets something you can actually use.</p><p>On Solactive's Equity Rebalance team, I built Python reporting tools and worked on daily index checks. Outside that, I'm exploring software, data, and markets through hands-on projects — and finding room for music along the way.</p><div class="experience-strip"><div><span class="mono">2026</span><strong>Solactive</strong><span>Index Analyst Co-op</span></div><div><span class="mono">2025 — PRESENT</span><strong>GeeseHack</strong><span>Marketing Executive</span></div><div><span class="mono">CLASS OF 2028</span><strong>UWaterloo</strong><span>Mathematical Finance</span></div></div></div></section>
+<section class="contact-section" id="contact"><span class="eyebrow">LEAVE THE DRAWER OPEN</span><h2>Something in mind?<br><em>Let's make it a thing.</em></h2><div class="contact-actions"><a href="mailto:r542li@uwaterloo.ca" class="pill dark">Say hello <span>✉</span></a><button id="copy-email" class="text-button">Copy my email <span>+</span></button></div><p id="copy-status" class="copy-status" role="status"></p><div class="contact-sticker" aria-hidden="true">good things<br>start with<br><b>hello.</b></div></section>
+</main>
+<footer><a class="wordmark" href="#home">lianna<span>✳</span></a><span class="mono">A WORK IN PROGRESS. JUST LIKE ME.</span><div><a href="https://github.com/lrb2006" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/liannalirb/" target="_blank" rel="noopener noreferrer">LinkedIn</a><button id="replay-intro">Replay intro</button></div></footer>
+</div>
+<dialog id="project-dialog" class="project-dialog"><button class="close-dialog" aria-label="Close project">×</button><div id="project-detail"></div></dialog>
+<dialog id="music-dialog" class="music-dialog"><button class="close-dialog" aria-label="Close record player">×</button><div class="player-header"><span class="eyebrow">LIANNA'S SOUND DRAWER</span><span class="mono">SIDE A / 01</span></div><div class="turntable"><div class="record" id="record"><span class="record-label">LIANNA<br><b>DEMO 01</b><small>an original demo</small></span><span class="record-hole"></span></div><div class="tonearm" id="tonearm" aria-hidden="true"></div><span class="turntable-brand mono">L / PERSONAL PRESSING</span><span class="player-led" aria-hidden="true"></span></div><div class="track-title"><div><h2>Demo 01</h2><p>Written into sound, by Lianna.</p></div><span class="mono" id="play-state" role="status">READY TO PLAY</span></div><audio id="demo-audio" preload="metadata" src="assets/lianna-demo.mp3"></audio><div class="seek-row"><span id="elapsed" class="mono">0:00</span><input id="seek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Track position"><span id="duration" class="mono">--:--</span></div><div class="player-controls"><button id="stop-track" class="round-button" aria-label="Stop and rewind">■</button><button id="play-track" class="play-button" aria-label="Play demo">▶</button><label class="volume-label"><span>Volume</span><input id="volume" type="range" min="0" max="1" step="0.01" value="0.65"></label></div><p class="player-footnote">One of my own demos. Open a drawer, stay a while.</p></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script src="entrance.js"></script><script src="app.js"></script>
+</body></html>

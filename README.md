@@ -1,4 +1,4 @@
-# Lianna Li · Compounding Curiosity
+# Lianna's Website
 
 My personal portfolio, published at **https://lrb2006.github.io/**.
 
